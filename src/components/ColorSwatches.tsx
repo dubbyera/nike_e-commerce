@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Check } from "lucide-react";
-import { useVariantStore } from "@/store/variant";
+import { useVariantStore } from "@/src/store/variant";
 
 type Variant = { color: string; images: string[] };
 
